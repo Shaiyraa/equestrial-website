@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Logo, Navbar, Flex, Icon, Nav, NavLink, PatreonLink } from './header.styles';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
@@ -18,11 +17,11 @@ const Header = () => {
         <Logo>Equestrial</Logo>
         {menuOpen ? <Icon icon={faTimes} onClick={toggleMenuOpen} /> : <Icon icon={faBars} onClick={toggleMenuOpen} />}
         <Nav open={menuOpen}>
-          <NavLink to='/'>about</NavLink>
-          <NavLink to='/development'>development</NavLink>
-          <NavLink to='/jobs'>jobs</NavLink>
-          <PatreonLink href='https://www.patreon.com/bePatron?u=60463355' target="_blank" >patreon</PatreonLink>
-          <NavLink to='/contact'>contact</NavLink>
+          <NavLink to='/' onClick={toggleMenuOpen}>about</NavLink>
+          <NavLink to='/development' onClick={toggleMenuOpen}>development</NavLink>
+          <NavLink to='/jobs' onClick={toggleMenuOpen}>jobs</NavLink>
+          <PatreonLink href='https://www.patreon.com/bePatron?u=60463355' target="_blank" onClick={toggleMenuOpen}>patreon</PatreonLink>
+          <NavLink to='/contact' onClick={toggleMenuOpen}>contact</NavLink>
         </Nav>
       </Flex>
     </Navbar>

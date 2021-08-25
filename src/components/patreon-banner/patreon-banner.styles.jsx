@@ -27,11 +27,3 @@ export const Title = styled.h1`
   letter-spacing: 1px;
   margin: 0 0 30px 0;
 `
-
-export const Button = styled.div`
-  letter-spacing: 1px;
-  font-size: 1.9em;
-  display: inline-block;
-  background-color: #ff4c29;
-  padding: 30px 50px;
-`

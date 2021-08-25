@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Content, Title, Button } from './patreon-banner.styles';
+import { Container, Content, Title } from './patreon-banner.styles';
 
 const PatreonBanner = () => (
   <Container>
