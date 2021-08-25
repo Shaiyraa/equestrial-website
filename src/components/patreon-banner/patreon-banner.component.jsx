@@ -5,7 +5,7 @@ const PatreonBanner = () => (
   <Container>
     <Content>
       <Title>please, consider supporting us</Title>
-      <Button>Become a Patron</Button>
+      <a href="https://www.patreon.com/bePatron?u=60463355" data-patreon-widget-type="become-patron-button">Become a Patron!</a>
     </Content>
   </Container>
 );

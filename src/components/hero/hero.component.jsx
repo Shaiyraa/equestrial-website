@@ -1,9 +1,8 @@
 import React from 'react';
 import { ImgWrapper, Title } from './hero.styles';
-import HeroPic from '../../assets/images/hero.jpg';
 
 const Hero = ({ title }) => (
-  <ImgWrapper pic={HeroPic}>
+  <ImgWrapper>
     <div className="wrapper">
       <Title>{title}</Title>
     </div>

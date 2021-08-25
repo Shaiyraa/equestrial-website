@@ -21,7 +21,7 @@ const Header = () => {
           <NavLink to='/'>about</NavLink>
           <NavLink to='/development'>development</NavLink>
           <NavLink to='/jobs'>jobs</NavLink>
-          <PatreonLink href='#'>patreon</PatreonLink>
+          <PatreonLink href='https://www.patreon.com/bePatron?u=60463355' target="_blank" >patreon</PatreonLink>
           <NavLink to='/contact'>contact</NavLink>
         </Nav>
       </Flex>
