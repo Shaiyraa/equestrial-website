@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   color: #f5eee6;
   font-family: 'Roboto';
@@ -16,4 +17,4 @@ p {
   margin: 0 auto;
 }
 
-/* color: #ff4c29 */
+/* #ff4c29 */

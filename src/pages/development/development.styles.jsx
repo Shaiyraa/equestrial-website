@@ -1,10 +1,5 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-  margin-top: 80px;
-  margin-bottom: 80px;
-`;
-
 export const SubTitle = styled.h1`
   font-size: 2.3em;
 `;

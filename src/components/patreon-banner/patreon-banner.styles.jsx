@@ -5,12 +5,19 @@ export const Container = styled.div`
   background-image: url(${PatreonImg});
   background-size: cover;
   background-position: center;
-  height: 900px;
+  height: 500px;
+
+  @media(min-width: 768px) {
+    height: 700px;
+  }
+  @media(min-width: 1280px) {
+    height: 900px;
+  }
 `
 export const Content = styled.div`
 
   background-color: rgba(0, 0, 0, 0.5);
-  width: 630px;
+  max-width: 630px;
   margin-left: auto;
   margin-right: auto;
   padding: 80px;
