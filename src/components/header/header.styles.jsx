@@ -7,15 +7,6 @@ export const Navbar = styled.div`
   position: absolute;
   width: 100%;
   z-index: 99999;
-
-  @media (min-width: 768px) {
-   
-  }
-
-  @media (min-width: 1280px) {
-
-  }
-
 `;
 
 export const Icon = styled(FontAwesomeIcon)`
@@ -47,7 +38,6 @@ export const Logo = styled.h1`
   font-weight: 300;
   letter-spacing: 5px;
   text-transform: uppercase;
-
   margin-left: 30px;
 
   @media(min-width: 768px) {
@@ -62,10 +52,6 @@ export const Logo = styled.h1`
 
 export const Nav = styled.div`
   display: ${({ open }) => open ? 'block' : 'none'};
-
-  @media(min-width: 768px) {
-
-  }
 
   @media(min-width: 1280px) {
     display: flex;

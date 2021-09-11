@@ -9,8 +9,6 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   }
 
-  console.log(menuOpen)
-
   return (
     <Navbar>
       <Flex className="wrapper">
