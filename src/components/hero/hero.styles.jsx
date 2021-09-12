@@ -7,6 +7,7 @@ export const ImgWrapper = styled.div`
   position:relative;
   width: 100%;
   height: 850px;
+  background-color: #1a1b1c;
   background: url(${HeroImgSmall}) center no-repeat;
   
   @media(min-width: 768px) {
