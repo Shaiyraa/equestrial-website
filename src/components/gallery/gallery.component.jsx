@@ -2,12 +2,11 @@ import React from 'react';
 import GalleryCard from '../../components/gallery-card/gallery-card.component';
 import { FeaturedContainer, SecondaryContainer } from './gallery.styles';
 
-import BreedingImg from '../../assets/images/breeding.jpg';
-import CompeteImg from '../../assets/images/compete.jpg';
-import DiscoverImg from '../../assets/images/discover.jpg';
-import CareImg from '../../assets/images/care.jpg';
-import ProfessionImg from '../../assets/images/profession.jpg';
-
+import BreedingImg from '../../assets/images/breeding.png';
+import CompeteImg from '../../assets/images/compete.png';
+import DiscoverImg from '../../assets/images/discover.png';
+import CareImg from '../../assets/images/care.png';
+import ProfessionImg from '../../assets/images/profession.png';
 
 const Gallery = () => (
   <div>
@@ -16,7 +15,11 @@ const Gallery = () => (
       <GalleryCard title="compete with other players" image={CompeteImg} />
     </FeaturedContainer>
     <SecondaryContainer>
-      <GalleryCard title="discover the mysterious lore" image={DiscoverImg} small />
+      <GalleryCard
+        title="discover the mysterious lore"
+        image={DiscoverImg}
+        small
+      />
       <GalleryCard title="take care of your horses" image={CareImg} small />
       <GalleryCard title="choose your profession" image={ProfessionImg} small />
     </SecondaryContainer>

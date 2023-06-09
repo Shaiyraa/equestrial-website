@@ -7,8 +7,11 @@ const Jobs = () => (
   <div>
     <Hero title="Jobs" />
     <Content>
-      <Text>We're not looking to hire anyone now, but feel free to contact us if you want to be notified, if in the future we want to expand our team.</Text>
-      <Text>jobs@equestrial.com</Text>
+      <Text>
+        We're not looking to hire anyone now, but feel free to contact us if you
+        want to be notified, if in the future we want to expand our team.
+      </Text>
+      <Text>teamequestrial@gmail.com</Text>
     </Content>
   </div>
 );

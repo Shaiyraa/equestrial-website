@@ -1,7 +1,19 @@
 import React from 'react';
-import { Container, Flex, Icon, IconLink, IconsContainer, Copyright } from './footer.styles';
+import {
+  Container,
+  Flex,
+  Icon,
+  IconLink,
+  IconsContainer,
+  Copyright,
+} from './footer.styles';
 import Logo from '../../assets/images/logo.png';
-import { faFacebookSquare, faDiscord } from '@fortawesome/free-brands-svg-icons';
+import {
+  faFacebookSquare,
+  faInstagramSquare,
+  faTwitterSquare,
+  faDiscord,
+} from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => (
   <Container>
@@ -9,8 +21,24 @@ const Footer = () => (
       <img src={Logo} alt="equestrial logo" height="120px" />
 
       <IconsContainer>
-        <IconLink href='#'><Icon icon={faFacebookSquare} /></IconLink>
-        <IconLink href='#'><Icon icon={faDiscord} /></IconLink>
+        <IconLink
+          href="https://www.facebook.com/equestrialthegame"
+          target="_blank"
+        >
+          <Icon icon={faFacebookSquare} />
+        </IconLink>
+        <IconLink
+          href="https://www.instagram.com/equestrialthegame/"
+          target="_blank"
+        >
+          <Icon icon={faInstagramSquare} />
+        </IconLink>
+        <IconLink href="https://twitter.com/EquestrialGame" target="_blank">
+          <Icon icon={faTwitterSquare} />
+        </IconLink>
+        <IconLink href="https://discord.com/invite/7zU678s" target="_blank">
+          <Icon icon={faDiscord} />
+        </IconLink>
       </IconsContainer>
 
       <Copyright>&copy; Equestrial 2021</Copyright>
@@ -18,4 +46,4 @@ const Footer = () => (
   </Container>
 );
 
-export default Footer
+export default Footer;
