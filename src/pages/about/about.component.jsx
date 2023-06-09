@@ -21,13 +21,21 @@ const About = () => (
         Learn basics of equine color genetics, while playing! The horses in
         Equestrial inherit the genes from their parents, just like in real life.
         You can experiment with countless factors to create unique genetic
-        combinations expressed as unique and rare horse colors. The first breed
-        introduced to the game is gonna bet the Friesian Horse, known for being
-        intelligent, gentle, and of course, being black from head to toes.
-        Those, who already know some stuff about genetics may realize, that
-        friesians can be also chestnut or flaxen, but those simply are not being
-        registered in friesian studbook. More on that and other related topics
-        you can read on our Socials!
+        combinations expressed as unique and rare horse colors. You can test our
+        genetics algorithm in{' '}
+        <a
+          href="https://genetics.playequestrial.pl"
+          target="_blank"
+          rel="noreferrer"
+        >
+          our demo app
+        </a>
+        . The first breed introduced to the game is gonna bet the Friesian
+        Horse, known for being intelligent, gentle, and of course, being black
+        from head to toes. Those, who already know some stuff about genetics may
+        realize, that friesians can be also chestnut or flaxen, but those simply
+        are not being registered in friesian studbook. More on that and other
+        related topics you can read on our Socials!
       </Text>
       <div style={{ textAlign: 'center' }}>
         <img

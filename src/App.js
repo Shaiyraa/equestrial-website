@@ -1,4 +1,3 @@
-
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import Header from './components/header/header.component';
@@ -13,10 +12,10 @@ function App() {
     <div className="App">
       <Header />
       <Switch>
-        <Route exact path="/" component={About} />
         <Route exact path="/development" component={Development} />
         <Route exact path="/jobs" component={Jobs} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/*" component={About} />
       </Switch>
 
       <Footer />
