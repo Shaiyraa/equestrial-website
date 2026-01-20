@@ -1,6 +1,7 @@
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import styled from "styled-components";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { colorVariables } from "../../color-variables";
 
 export const Navbar = styled.div`
   background-color: rgba(0, 0, 0, 0.3);
@@ -44,13 +45,13 @@ export const Logo = styled.h1`
   }
 
   @media (min-width: 1280px) {
-    margin: 18px 0 0 18px;
-    font-size: 3.2em;
+    margin: 25px 0 0 18px;
+    font-size: 2.6em;
   }
 `;
 
 export const Nav = styled.div`
-  display: ${({ open }) => (open ? 'block' : 'none')};
+  display: ${({ open }) => (open ? "block" : "none")};
 
   position: absolute;
   top: 100px;
@@ -67,13 +68,13 @@ export const Nav = styled.div`
 `;
 
 export const NavLink = styled(Link)`
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 300;
   text-decoration: none;
   color: inherit;
 
   &:hover {
-    color: #bf3336;
+    color: ${colorVariables.secondaryColor};
   }
 
   // small device
@@ -103,7 +104,7 @@ export const PatreonLink = styled.a`
   color: inherit;
 
   &:hover {
-    color: #ff4c29;
+    color: ${colorVariables.accentColor};
   }
 
   // small device

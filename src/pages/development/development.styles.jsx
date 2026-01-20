@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import styled from "styled-components";
+import { colorVariables } from "../../color-variables";
 
 export const SubTitle = styled.h1`
   font-size: 2.3em;
@@ -6,7 +7,7 @@ export const SubTitle = styled.h1`
 
 export const Stage = styled.span`
   display: inline-block;
-  background-color: #ee8b3b;
+  background-color: ${colorVariables.tonedAccentColor};
   margin-left: 25px;
   padding: 10px 30px;
 `;
@@ -20,7 +21,7 @@ export const Dot = styled.div`
   width: 16px;
   height: 16px;
   margin-right: 10px;
-  background-color: #ee8b3b;
+  background-color: ${colorVariables.tonedAccentColor};
   border-radius: 50%;
 `;
 

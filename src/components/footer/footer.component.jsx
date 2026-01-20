@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Container,
   Flex,
@@ -6,19 +6,19 @@ import {
   IconLink,
   IconsContainer,
   Copyright,
-} from './footer.styles';
-import Logo from '../../assets/images/logo.png';
+} from "./footer.styles";
+import Logo from "../../assets/images/logo.png";
 import {
   faFacebookSquare,
   faInstagramSquare,
   faTwitterSquare,
   faDiscord,
-} from '@fortawesome/free-brands-svg-icons';
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => (
   <Container>
     <Flex className="wrapper">
-      <img src={Logo} alt="equestrial logo" height="120px" />
+      <img src={Logo} alt="equestrial logo" height="80px" />
 
       <IconsContainer>
         <IconLink
@@ -41,7 +41,7 @@ const Footer = () => (
         </IconLink>
       </IconsContainer>
 
-      <Copyright>&copy; Equestrial 2021</Copyright>
+      <Copyright>&copy; Equestrial 2026</Copyright>
     </Flex>
   </Container>
 );

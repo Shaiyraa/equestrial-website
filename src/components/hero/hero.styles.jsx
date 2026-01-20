@@ -1,7 +1,8 @@
-import styled from 'styled-components';
-import HeroImgSmall from '../../assets/images/hero-small.png';
-import HeroImgMedium from '../../assets/images/hero-medium.png';
-import HeroImgLarge from '../../assets/images/hero.png';
+import styled from "styled-components";
+import HeroImgSmall from "../../assets/images/hero-small.png";
+import HeroImgMedium from "../../assets/images/hero-medium.png";
+import HeroImgLarge from "../../assets/images/hero.png";
+import { colorVariables } from "../../color-variables";
 
 export const ImgWrapper = styled.div`
   position: relative;
@@ -26,7 +27,7 @@ export const Title = styled.h1`
   bottom: 25px;
   margin: 0;
   padding: 0;
-  color: #fcf2e2;
+  color: ${colorVariables.textColor};
   text-shadow: 1px 1px 15px #000;
   font-size: 2.1em;
   font-weight: 700;

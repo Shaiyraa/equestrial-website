@@ -3,9 +3,9 @@
 }
 
 body {
-  color: #fcf2e2;
-  font-family: 'Roboto';
-  background-color: #1e2b3e;
+  color: #fff;
+  font-family: "Roboto";
+  background-color: #182c41;
 }
 
 p {
@@ -16,5 +16,3 @@ p {
   max-width: 1250px;
   margin: 0 auto;
 }
-
-/* #ff4c29 */

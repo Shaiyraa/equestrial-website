@@ -1,8 +1,9 @@
-import styled from 'styled-components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { colorVariables } from "../../color-variables";
 
 export const Container = styled.div`
-  background-color: #bf3336;
+  background-color: ${colorVariables.tonedAccentColor};
   padding: 40px 0;
 `;
 
@@ -28,23 +29,24 @@ export const IconsContainer = styled.div`
 `;
 
 export const Icon = styled(FontAwesomeIcon)`
-  font-size: 4em;
+  font-size: 3em;
   margin: 13px;
 `;
+
 export const IconLink = styled.a`
   text-decoration: none;
   color: inherit;
 
   &:hover {
-    color: #1e2b3e;
+    color: ${colorVariables.secondaryColor};
   }
 `;
 
 export const Copyright = styled.div`
   text-align: center;
   margin: auto 0;
-  font-size: 1.3em;
-  letter-spacing: 1px;
+  font-size: 0.9em;
+  font-weight: 300;
 
   @media (min-width: 768px) {
     text-align: right;

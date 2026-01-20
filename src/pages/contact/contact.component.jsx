@@ -1,6 +1,6 @@
-import React from 'react';
-import Hero from '../../components/hero/hero.component';
-import Content from '../../components/content/content.component';
+import React from "react";
+import Hero from "../../components/hero/hero.component";
+import Content from "../../components/content/content.component";
 import {
   SubTitle,
   ItemContainer,
@@ -8,24 +8,24 @@ import {
   MailIcon,
   Icon,
   IconLink,
-} from './contact.styles';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+} from "./contact.styles";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookSquare,
   faDiscord,
   faInstagramSquare,
   faTwitterSquare,
-} from '@fortawesome/free-brands-svg-icons';
+} from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => (
   <div>
     <Hero title="Contact us" />
     <Content>
-      <div style={{ textAlign: 'center' }}>
-        <SubTitle>
-          Want to share an opinion or have a mindblowing idea? Feel free to
-          contact us in any case!
-        </SubTitle>
+      <SubTitle>
+        Want to share an opinion or have a mindblowing idea? Feel free to
+        contact us in any case!
+      </SubTitle>
+      <div style={{ marginLeft: "50%", transform: "translateX(-25%)" }}>
         <ItemContainer>
           <IconLink
             href="https://www.facebook.com/equestrialthegame"

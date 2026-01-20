@@ -1,5 +1,6 @@
-import styled from 'styled-components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { colorVariables } from "../../color-variables";
 
 export const SubTitle = styled.h3`
   font-size: 1.8em;
@@ -12,32 +13,33 @@ export const ItemContainer = styled.div`
 `;
 export const Item = styled.p`
   display: inline-block;
-  font-size: 1.2em;
+  font-size: 1em;
   margin: 0;
   padding: 0;
+  font-weight: 300;
 
   /* center horizontally */
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-40%);
 `;
 
 export const Icon = styled(FontAwesomeIcon)`
-  font-size: 3.2em;
+  font-size: 2.8em;
   margin-right: 25px;
 `;
 
 export const MailIcon = styled(FontAwesomeIcon)`
-  font-size: 3.2em;
+  font-size: 2.8em;
   margin-right: 25px;
-  color: #ee8b3b;
+  color: ${colorVariables.accentColor};
 `;
 
 export const IconLink = styled.a`
   text-decoration: none;
-  color: #ee8b3b;
+  color: ${colorVariables.accentColor};
 
   &:hover {
-    color: #fcf2e2;
+    color: ${colorVariables.primaryColor};
   }
 `;

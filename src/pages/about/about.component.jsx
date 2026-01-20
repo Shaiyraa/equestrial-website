@@ -1,10 +1,10 @@
-import React from 'react';
-import Hero from '../../components/hero/hero.component';
-import Gallery from '../../components/gallery/gallery.component';
-import Content from '../../components/content/content.component';
-import { Text, TrainingImage } from './about.styles';
-import CoatShowcase from '../../assets/images/showcase.gif';
-import TrainingShowcase from '../../assets/images/training.png';
+import React from "react";
+import Hero from "../../components/hero/hero.component";
+import Gallery from "../../components/gallery/gallery.component";
+import Content from "../../components/content/content.component";
+import { Text, TrainingImage } from "./about.styles";
+import CoatShowcase from "../../assets/images/showcase.gif";
+import TrainingShowcase from "../../assets/images/training.png";
 
 const About = () => (
   <div>
@@ -22,7 +22,7 @@ const About = () => (
         Equestrial inherit the genes from their parents, just like in real life.
         You can experiment with countless factors to create unique genetic
         combinations expressed as unique and rare horse colors. You can test our
-        genetics algorithm in{' '}
+        genetics algorithm in{" "}
         <a
           href="https://genetics.playequestrial.pl"
           target="_blank"
@@ -30,16 +30,16 @@ const About = () => (
         >
           our demo app
         </a>
-        . The first breed introduced to the game is gonna bet the Friesian
-        Horse, known for being intelligent, gentle, and of course, being black
-        from head to toes. Those, who already know some stuff about genetics may
+        . The first breed introduced to the game is gonna be the Friesian Horse,
+        known for being intelligent, gentle, and of course, being black from
+        head to toes. Those, who already know some stuff about genetics may
         realize, that friesians can be also chestnut or flaxen, but those simply
         are not being registered in friesian studbook. More on that and other
         related topics you can read on our Socials!
       </Text>
-      <div style={{ textAlign: 'center' }}>
+      <div style={{ textAlign: "center" }}>
         <img
-          style={{ display: 'inline-block' }}
+          style={{ display: "inline-block" }}
           src={CoatShowcase}
           alt="Showcase of horse coat colors"
         />
@@ -52,7 +52,7 @@ const About = () => (
         compete head to head with other horses bred by players from all around
         the Equestrial island.
       </Text>
-      <div style={{ textAlign: 'center' }}>
+      <div style={{ textAlign: "center" }}>
         <TrainingImage
           src={TrainingShowcase}
           alt="Showcase of horse training methods"
