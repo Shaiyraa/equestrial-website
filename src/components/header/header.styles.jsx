@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { colorVariables } from "../../color-variables";
 
 export const Navbar = styled.div`
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: ${colorVariables.tonedAccentColor};
   position: absolute;
   width: 100%;
   z-index: 99999;
@@ -34,7 +34,7 @@ export const Flex = styled.div`
 export const Logo = styled.h1`
   font-size: 1.9em;
   font-weight: 300;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   margin: 33px 0 0 18px;
   padding: 0;

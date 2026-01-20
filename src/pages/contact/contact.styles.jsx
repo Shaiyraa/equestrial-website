@@ -17,11 +17,6 @@ export const Item = styled.p`
   margin: 0;
   padding: 0;
   font-weight: 300;
-
-  /* center horizontally */
-  position: relative;
-  top: 50%;
-  transform: translateY(-40%);
 `;
 
 export const Icon = styled(FontAwesomeIcon)`
